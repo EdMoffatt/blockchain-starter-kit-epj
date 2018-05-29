@@ -19,6 +19,7 @@ namespace org.example.basic
 
 asset SampleAsset identified by assetId {
   o String assetId
+  o String pointlessString optional
   --> SampleParticipant owner
   o String value
 }
